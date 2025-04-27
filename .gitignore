@@ -1,0 +1,65 @@
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment files
+.env
+*.env
+*.venv/
+venv/
+ENV/
+env/
+.Python
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Mac system files
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Docker
+*.dockerfile
+Dockerfile
+.dockerignore
+
+# Temporary files
+tmp/
+temp/
+*.bak
+
+# Jupyter Notebooks (if any testing later)
+.ipynb_checkpoints/
+
+# Compiled C extensions
+*.so
+
+# System crash logs
+*.log
+
+# Test artifacts
+htmlcov/
+coverage.xml
+.cache/
+nosetests.xml
+*.cover
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Misc
+*.sqlite3
+*.db
+
+# VSCode settings (optional but recommended)
+.vscode/settings.json
