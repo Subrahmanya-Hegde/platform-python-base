@@ -36,7 +36,7 @@ tmp/
 temp/
 *.bak
 
-# Jupyter Notebooks (if any testing later)
+# Jupyter Notebooks
 .ipynb_checkpoints/
 
 # Compiled C extensions
@@ -61,5 +61,5 @@ dist/
 *.sqlite3
 *.db
 
-# VSCode settings (optional but recommended)
+# VSCode settings
 .vscode/settings.json
