@@ -3,3 +3,4 @@ pydantic>=1.10.0
 python-dotenv>=1.0.0
 pyyaml>=6.0
 aiobreaker>=0.4.0
+pydantic-settings>=2.1.0
