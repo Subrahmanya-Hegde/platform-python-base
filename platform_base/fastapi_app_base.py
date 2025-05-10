@@ -1,10 +1,10 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from platform_base.logging_factory import setup_logging
+from platform_base.logging_factory import get_logger
 from platform_base.error_handler import register_error_handlers
 
 def create_base_app(app_name: str = "Platform Service", enable_cors: bool = True) -> FastAPI:
-    setup_logging()
+    get_logger()
 
     app = FastAPI(
         title=app_name,
