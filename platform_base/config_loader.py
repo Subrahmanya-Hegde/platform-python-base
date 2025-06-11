@@ -5,7 +5,7 @@ import yaml
 
 def load_env_file(env_path: str = ".env") -> None:
     if os.path.exists(env_path):
-        load_dotenv(dotenv_path=env_path)
+        load_dotenv(dotenv_path=env_path, override=True)
 
 def load_yaml_config(yaml_path: str) -> Dict[str, Any]:
     if not os.path.exists(yaml_path):
